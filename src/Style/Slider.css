@@ -1,0 +1,28 @@
+.carousel-container {
+    max-width: 80%; /* Adjust this value to control the width */
+    margin: 0 auto; /* This centers the carousel */
+    overflow: hidden; /* Ensures no overflow from the rounded corners */
+    border-radius: 15px; /* Adjust this value for desired roundness */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .rounded-carousel {
+    border-radius: 10px; /* Ensures images also get rounded corners */
+  }
+  
+  .carousel-item {
+    height: 500px; /* Adjust this value based on your desired carousel height */
+  }
+  
+  /* Adjust images to cover the space without losing their aspect ratio */
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Use 'contain' if you want to see the whole image without cropping */
+    width: 100%;
+  }
+  .carousel-caption h4,
+.carousel-caption p {
+  color: white !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Simulates border effect */
+}

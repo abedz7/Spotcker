@@ -1,0 +1,22 @@
+.footer-sec {
+    padding: 20px 0; /* Top and bottom padding */
+    background-color: #f8f9fa; /* Example background color */
+}
+
+.first-sec-footer, .second-sec-footer {
+    padding: 20px;
+}
+
+.social-media {
+    margin-top: 10px; /* Additional top margin for social media links */
+}
+
+.input-group-append .btn {
+    margin-left: -1px; /* Remove gap between input and button */
+}
+
+@media (max-width: 768px) {
+    .first-sec-footer, .second-sec-footer {
+        text-align: center;
+    }
+}
